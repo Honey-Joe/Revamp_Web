@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Regular;
+  src: url(./assets/fonts/productsans.ttf);
+}
+#certi{
+  box-shadow: 0 2px 8px #00000040;
+}
