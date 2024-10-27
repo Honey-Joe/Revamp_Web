@@ -4,7 +4,7 @@ import { ArrowRight, MapPin } from "lucide-react"
 const UpcomingEventCard = ({month,day,year,image,location,head,viewdetails}) => {
   return (
     <>
-        <div className=" shadow-2xl border rounded-2xl">
+        <div className=" border rounded-2xl" id="certi">
             <div className=" flex  md:items-center p-5 gap-8 flex-wrap lg:flex-nowrap">
                 <div className=" flex items-center gap-8">
                     <div>
