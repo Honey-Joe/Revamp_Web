@@ -32,7 +32,8 @@ const Navabout = () => {
             </div>
             
             
-            <div className="h-[70%] w-[100%]">
+            <div className="h-[70%] w-[100%] grid grid-cols-2 gap-3">
+              <img src={navcourseimg1} alt="navimg" className="h-full w-full" />
               <img src={navcourseimg1} alt="navimg" className="h-full w-full" />
             </div>
             <div className="my-4">
