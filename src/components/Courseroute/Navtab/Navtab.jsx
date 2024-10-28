@@ -8,6 +8,7 @@ import Content from "../Navcourse/Navcourse";
 import { Tab, TabPanel, Tabs, TabsList } from "@mui/base";
 import UpcomingEvent from "../UpcomingEvent/UpcomingEvent";
 import ProjectSection from "../ProjectSection/ProjectSection";
+import Review3 from "../Review3/Review3";
 
 function Navtab() {
   var settings = {
@@ -50,7 +51,7 @@ function Navtab() {
   return (
     <>
       <div className="2xl:container">
-        <div className="lg:w-[100%]  w-[80%] mx-auto grid grid-cols-1 mb-28  py-[40px]">
+        <div className="lg:w-[100%]  w-[95%] mx-auto grid grid-cols-1 mb-28  py-[40px]">
           <Tabs defaultValue={1}>
             <TabsList className="pb-3">
               <div className="slider-container py-5 px-3 rounded-lg " id="certi">
@@ -166,7 +167,7 @@ function Navtab() {
               <Curriculam></Curriculam>
             </TabPanel>
             <TabPanel value={3}>
-              <Review></Review>
+                      <Review3></Review3>
             </TabPanel>
             <TabPanel value={4}>
               <ProjectSection></ProjectSection>

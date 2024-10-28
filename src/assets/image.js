@@ -95,3 +95,5 @@ export const coursedhead745= "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame
 export const coursedheadmob ="https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%20737.png?updatedAt=1730090456322"
 
 export const author = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/suganth.jpeg.jpg?updatedAt=1724426232956"
+
+export const review3 = "https://ik.imagekit.io/HoneyJoe/inspiration/testimonial-3-1.jpg?updatedAt=1729349162728";

@@ -7,7 +7,7 @@ const UpcomingEvent = () => {
   return (
     <>
         <div className=" max-w-[100%] mx-auto">
-            <div className=" w-[99%] mx-auto md:w-[80%] md:mx-0">
+            <div className=" w-[99%] mx-auto md:w-[80%] md:mx-0 py-[60px]">
                 
                 <div className=' grid grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-x-5 gap-y-12'>
                     {

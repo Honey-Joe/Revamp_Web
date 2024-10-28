@@ -41,7 +41,7 @@ function ProjectSection() {
     ],
   };
   return (
-    <div className="w-[100%] flex flex-col gap-5">
+    <div className="w-[100%] flex flex-col gap-5 py-[60px]">
       <Slider {...settings}>
         {ProjectSectionData.map((e) => {
           return (
@@ -65,7 +65,7 @@ function ProjectSection() {
         {ProjectSectionData.map((e) => {
           return (
             <>
-            <div className="mx-2 my-2">
+            <div className="mx-3 my-1 ">
             <ProjectSectionCard
                 img={e.img}
                 tag={e.tag}
