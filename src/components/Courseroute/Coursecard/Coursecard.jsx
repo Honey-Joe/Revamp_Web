@@ -5,10 +5,10 @@ const Card_intro = () => {
   return (
     <>
       <div className="2xl:container py-10">
-        <div className=" grid grid-cols-1 mx-auto items-center justify-center">
+        <div className=" grid grid-cols-1 mx-auto items-center justify-center bg-white">
           <div className="grid grid-cols-1 justify-center px-8 py-5 rounded-xl" id="certi">
             <div className="flex justify-start py-2">
-              <p className="font-[Regular] font-bold">Instructor</p>
+              <p className="font-[Poppins] font-bold">Instructor</p>
             </div>
             <div className="w-full h-[1px] bg-gray-300"></div>
             <div className="grid grid-cols-1 xl:grid-cols-3 gap-1 items-center justify-center ">
@@ -20,15 +20,15 @@ const Card_intro = () => {
                 />
               </div>
               <div className="flex flex-col justify-center py-3 gap-4 w-[90%]  col-span-2">
-                <p className="font-[Regular] text-[16px] md:text-[20px] font-bold hover:text-[#FF9F00]">
+                <p className="font-[Poppins] text-[16px] md:text-[20px] font-bold hover:text-[#FF9F00]">
                 Suganth PV
                 </p>
-                <p className="font-[Regular] text-[14px] md:text-base text-[#6b7385]">
+                <p className="font-[Poppins] text-[14px] md:text-base text-[#6b7385]">
                 UIUX DESIGNER
                 </p>
                 
                 <div>
-                  <p className="font-[Regular] text-[12px] lg:text-[14px] text-[#212327]">
+                  <p className="font-[Poppins] text-[12px] lg:text-[14px] text-[#212327]">
                   The trainer is a seasoned professional with over 5 years of experience in UI/UX design, having worked on a variety of projects ranging from mobile apps to web platforms. 
                   </p>
                 </div>

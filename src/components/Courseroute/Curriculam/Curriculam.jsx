@@ -9,8 +9,8 @@ const Curriculam = () => {
   return (
     <>
       <div>
-        <div className="px-6 py-8 w-[100%]">
-          <h1 className=" font-semibold text-[22px] font-[Regular] text-[#FF9F00]">
+        <div className="px-6 py-[60px] w-[100%]">
+          <h1 className=" font-semibold text-[22px] font-[Poppins] text-[#FF9F00]">
             Course Curriculum
           </h1>
           <div className=" pt-5 group">
@@ -18,11 +18,11 @@ const Curriculam = () => {
               onClick={() => setAccordion(!accordion)}
               className={`flex items-center md:justify-between w-full p-3 rounded-md border-2  ${
                 accordion
-                  ? "rounded-bl-none rounded-br-none text-[#FF9F00] bg-[#e3e5eb] transition ease-in-out"
+                  ? "rounded-bl-none rounded-br-none   transition ease-in-out"
                   : "rounded-md"
               }`}
             >
-              <span className="line-clamp-1 font-medium font-[Regular] text-[18px] transition-colors ease-in-out group-hover:text-[#FF9F00] text-start ">
+              <span className="line-clamp-1 font-medium font-[Poppins] text-[18px] transition-colors ease-in-out group-hover:text-[#FF9F00] text-start ">
                 Intoductions & Inspiration
               </span>
 
@@ -43,69 +43,69 @@ const Curriculam = () => {
                   : "grid-rows-[0fr] opacity-0 hidden transition"
               }`}
             >
-              <div className="p-3 flex items-center gap-2 justify-between hover:bg-[#e3e5eb]">
+              <div className="p-3 flex items-center gap-2 justify-between hover:">
                 <div className=" flex items-center gap-2">
                   <div>
                     <Youtube color="#475569" size={16}></Youtube>
                   </div>
-                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Regular] text-slate-800 line-clamp-1">
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Poppins] text-slate-800 line-clamp-1">
                     What is UIUX ?{" "}
                   </p>
                 </div>
                 
               </div>
 
-              <div className="p-3 flex items-center justify-between hover:bg-[#e3e5eb]">
+              <div className="p-3 flex items-center justify-between hover:">
                 <div className=" flex items-center gap-2 justify-center">
                 <div>
                     <Youtube color="#475569" size={16}></Youtube>
                   </div>
-                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Regular] text-slate-800 line-clamp-1">
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Poppins] text-slate-800 line-clamp-1">
                     Where it is Used?
                   </p>
                 </div>
                 
               </div>
-              <div className="p-3 flex items-center justify-between hover:bg-[#e3e5eb]">
+              <div className="p-3 flex items-center justify-between hover:">
                 <div className=" flex items-center gap-2">
                 <div>
                     <Youtube color="#475569" size={16}></Youtube>
                   </div>
-                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Regular] text-slate-800">
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Poppins] text-slate-800">
                     Demands
                   </p>
                 </div>
                 
               </div>
 
-              <div className="p-3 flex items-center justify-between hover:bg-[#e3e5eb]">
+              <div className="p-3 flex items-center justify-between hover:">
                 <div className=" flex items-center gap-2">
                 <div>
                     <Youtube color="#475569" size={16}></Youtube>
                   </div>
-                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Regular] text-slate-800 line-clamp-1">
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Poppins] text-slate-800 line-clamp-1">
                     Future Plans by learning FIGMA
                   </p>
                 </div>
                 
               </div>
-              <div className="p-3 flex items-center justify-between hover:bg-[#e3e5eb]">
+              <div className="p-3 flex items-center justify-between hover:">
                 <div className=" flex items-center gap-2">
                 <div>
                     <Youtube color="#475569" size={16}></Youtube>
                   </div>
-                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Regular] text-slate-800 line-clamp-1">
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Poppins] text-slate-800 line-clamp-1">
                     Syllabus Detailed Explanations
                   </p>
                 </div>
                 
               </div>
-              <div className="p-3 flex items-center justify-between hover:bg-[#e3e5eb]">
+              <div className="p-3 flex items-center justify-between hover:">
                 <div className=" flex items-center gap-2">
                 <div>
                     <Youtube color="#475569" size={16}></Youtube>
                   </div>
-                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Regular] text-slate-800 line-clamp-1">
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Poppins] text-slate-800 line-clamp-1">
                     Tools Setup i.e FIGMA
                   </p>
                 </div>
@@ -119,11 +119,11 @@ const Curriculam = () => {
               onClick={() => setBasic(!basic)}
               className={`flex items-center justify-between w-full  p-3 rounded-md border-2  ${
                 basic
-                  ? "rounded-bl-none rounded-br-none text-[#FF9F00] bg-[#e3e5eb] "
+                  ? "rounded-bl-none rounded-br-none   "
                   : "rounded-md"
               }`}
             >
-              <span className="line-clamp-1 font-medium font-[Regular] text-[18px] text-center transition-colors ease-in-out group-hover:text-[#FF9F00]">
+              <span className="line-clamp-1 font-medium font-[Poppins] text-[18px] text-center transition-colors ease-in-out group-hover:text-[#FF9F00]">
                 Sketching
               </span>
             </button>
@@ -134,11 +134,11 @@ const Curriculam = () => {
               onClick={() => setBasic1(!basic1)}
               className={`flex items-center justify-between w-full  p-3 rounded-md border-2  ${
                 basic1
-                  ? "rounded-bl-none rounded-br-none text-[#FF9F00] bg-[#e3e5eb] "
+                  ? "rounded-bl-none rounded-br-none  "
                   : "rounded-md"
               }`}
             >
-              <span className=" font-medium font-[Regular] text-[18px] transition-colors ease-in-out group-hover:text-[#FF9F00] line-clamp-1 text-start">
+              <span className=" font-medium font-[Poppins] text-[18px] transition-colors ease-in-out group-hover:text-[#FF9F00] line-clamp-1 text-start">
                 Project : Sketching a EDTECH APP & WEBSITE
               </span>
             </button>
@@ -149,11 +149,11 @@ const Curriculam = () => {
               onClick={() => setBasic2(!basic2)}
               className={`flex items-center justify-between w-full  p-3 rounded-md border-2  ${
                 basic2
-                  ? "rounded-bl-none rounded-br-none text-[#FF9F00] bg-[#e3e5eb] "
+                  ? "rounded-bl-none rounded-br-none  "
                   : "rounded-md"
               }`}
             >
-              <span className=" font-medium font-[Regular] text-[18px] transition-colors ease-in-out group-hover:text-[#FF9F00]">
+              <span className=" font-medium font-[Poppins] text-[18px] transition-colors ease-in-out group-hover:text-[#FF9F00]">
                 Figma Basics
               </span>
             </button>
@@ -164,11 +164,11 @@ const Curriculam = () => {
               onClick={() => setBasic3(!basic3)}
               className={`flex items-center justify-between w-full  p-3 rounded-md border-2  ${
                 basic3
-                  ? "rounded-bl-none rounded-br-none text-[#FF9F00] bg-[#e3e5eb] "
+                  ? "rounded-bl-none rounded-br-none text-[#FF9F00]  "
                   : "rounded-md"
               }`}
             >
-              <span className=" font-medium font-[Regular] text-[18px] transition-colors ease-in-out group-hover:text-[#FF9F00]">
+              <span className=" font-medium font-[Poppins] text-[18px] transition-colors ease-in-out group-hover:text-[#FF9F00]">
                 Figma Tool
               </span>
 
@@ -189,69 +189,69 @@ const Curriculam = () => {
                   : "grid-rows-[0fr] opacity-0 hidden"
               }`}
             >
-              <div className="p-5 flex items-center justify-between hover:bg-[#e3e5eb]">
+              <div className="p-5 flex items-center justify-between hover:">
                 <div className=" flex items-center gap-2">
                 <div>
                     <Youtube color="#475569" size={16}></Youtube>
                   </div>
-                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Regular] text-slate-800 line-clamp-1">
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Poppins] text-slate-800 line-clamp-1">
                     Figma UI — Structure
                   </p>
                 </div>
                 
               </div>
 
-              <div className="p-5 flex items-center justify-between hover:bg-[#e3e5eb]">
+              <div className="p-5 flex items-center justify-between hover:">
                 <div className=" flex items-center gap-2">
                 <div>
                     <Youtube color="#475569" size={16}></Youtube>
                   </div>
-                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Regular] text-slate-800 line-clamp-1">
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Poppins] text-slate-800 line-clamp-1">
                     Figma UI — Files
                   </p>
                 </div>
                 
               </div>
 
-              <div className="p-5 flex items-center justify-between hover:bg-[#e3e5eb]">
+              <div className="p-5 flex items-center justify-between hover:">
                 <div className=" flex items-center gap-2">
                 <div>
                     <Youtube color="#475569" size={16}></Youtube>
                   </div>
-                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Regular] text-slate-800 line-clamp-1">
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Poppins] text-slate-800 line-clamp-1">
                     Figma UI — Toolbar
                   </p>
                 </div>
                 
               </div>
-              <div className="p-5 flex items-center justify-between hover:bg-[#e3e5eb]">
+              <div className="p-5 flex items-center justify-between hover:">
                 <div className=" flex items-center gap-2">
                 <div>
                     <Youtube color="#475569" size={16}></Youtube>
                   </div>
-                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Regular] text-slate-800 line-clamp-1">
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Poppins] text-slate-800 line-clamp-1">
                     Figma UI — Left Sidebar
                   </p>
                 </div>
                 
               </div>
-              <div className="p-5 flex items-center justify-between hover:bg-[#e3e5eb]">
+              <div className="p-5 flex items-center justify-between hover:">
                 <div className=" flex items-center gap-2">
                 <div>
                     <Youtube color="#475569" size={16}></Youtube>
                   </div>
-                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Regular] text-slate-800 line-clamp-1">
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Poppins] text-slate-800 line-clamp-1">
                     Figma UI — Right Sidebar
                   </p>
                 </div>
                 
               </div>
-              <div className="p-5 flex items-center justify-between hover:bg-[#e3e5eb]">
+              <div className="p-5 flex items-center justify-between hover:">
                 <div className=" flex items-center gap-2">
                 <div>
                     <Youtube color="#475569" size={16}></Youtube>
                   </div>
-                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Regular] text-slate-800 line-clamp-1">
+                  <p className=" font-medium text-[16px] hover:bg-[#ebecef] font-[Poppins] text-slate-800 line-clamp-1">
                     Frames
                   </p>
                 </div>

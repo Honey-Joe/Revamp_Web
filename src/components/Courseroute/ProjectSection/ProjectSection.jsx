@@ -41,7 +41,26 @@ function ProjectSection() {
     ],
   };
   return (
-    <div className="w-[100%]">
+    <div className="w-[100%] flex flex-col gap-5">
+      <Slider {...settings}>
+        {ProjectSectionData.map((e) => {
+          return (
+            <>
+            <div className="mx-2 my-2">
+            <ProjectSectionCard
+                img={e.img}
+                tag={e.tag}
+                projecttitle={e.projecttitle}
+                projectdesc={e.projectdesc}
+                doneby={e.doneby}
+                college={e.college}
+              ></ProjectSectionCard>
+            </div>
+              
+            </>
+          );
+        })}
+      </Slider>
       <Slider {...settings}>
         {ProjectSectionData.map((e) => {
           return (

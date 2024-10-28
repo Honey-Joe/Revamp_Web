@@ -1,40 +1,41 @@
 import { Star } from 'lucide-react'
-import {  quote2, reviwe } from '../../../assets/image'
+import {  author, quote2, reviwe } from '../../../assets/image'
 
-const Navcard = () => {
+const Navcard = (props) => {
   return (
     <>
-        <div className='2xl:container '>
-            <div className='w-[100%] grid grid-cols-1 px-1 md:px-6 gap-3 '>
-              <div >
-                <div className='px-10 py-10 shadow-xl flex flex-col gap-5 rounded-3xl my-4'>
-                <div className='flex justify-center'>
-                    <img src={quote2} alt="" />
-                </div>
-                <div>
-                  <p className='text-center font-[Regular] text-[12px]'>Lorem ipsum dolor sit amet consectetur. A sapien donec lacus nunc integer vitae vitae. Gravida nulla in tincidunt lectus consectetur sed ante.</p>
-                </div>
-                <hr />
-                <div className='flex justify-center gap-3'>
-                  <Star size={16} color='#FF9F00' fill='#FF9F00'></Star>
-                  <Star size={16} color='#FF9F00' fill='#FF9F00'></Star>
-                  <Star size={16} color='#FF9F00' fill='#FF9F00'></Star>
-                  <Star size={16} color='#FF9F00' fill='#FF9F00'></Star>
-                  <Star size={16} color='#FF9F00' fill='#FF9F00'></Star>
-                </div>
-                <div className=' flex flex-col items-center justify-center'>
-                  <p className=' font-bold font-[Regular] text-center'>SUGANTH PV</p>
-                  <p className=' font-[Regular] text-[14px] text-center'>SRI SAIRAM ENGINEERING COLLEGE</p>
-                </div>
-                </div>
-                <div className='flex gap-2 justify-center items-center'>
-                  <div className='h-[3px] w-[143px]' id='review2'></div>
-                  <div><img src={reviwe} alt="" /></div>
-                  <div className='h-[3px] w-[143px]' id='review'></div>
+        <div className="bg-white p-4 lg:p-8 rounded-lg shadow-lg flex flex-col justify-center items-center gap-6 mx-3 w-[230px] lg:w-[300px]">
+          <div className='flex justify-center'>
+                <img src={author} className=" rounded-full w-[100px] h-[100px] lg:w-[100%] lg:h-[100%] " />
+
+          </div>
+                <div className=''>
+                  <p className="text-gray-700 mb-4 font-[Poppins]" >
+                    {props.desc}
+                  </p>
+                  <div className="flex gap-2 my-3">
+                    <div className="">
+                      <Star fill="#F57104" stroke="#F57104"></Star>
+                    </div>
+                    <div className="">
+                      <Star fill="#F57104" stroke="#F57104"></Star>
+                    </div>
+                    <div className="">
+                      <Star fill="#F57104" stroke="#F57104"></Star>
+                    </div>
+                    <div className="">
+                      <Star fill="#F57104" stroke="#F57104"></Star>
+                    </div>
+                    <div className="">
+                      <Star fill="#F57104" stroke="#F57104"></Star>
+                    </div>
+                  </div>
+                  <h4 className="font-bold text-gray-900 text-lg font-[Poppins]">
+                    {props.name}
+                  </h4>
+                  <p className="text-gray-500 font-[Poppins]">{props.desig}</p>
                 </div>
               </div>
-            </div>
-        </div> 
     </>
   )
 }

@@ -7,19 +7,15 @@ const Navcourse = () => {
   return (
     <>
       <div className="2xl:container">
-        <div className="w-[100%]">
+        <div className="w-[100%] py-[60px] flex flex-col gap-5">
           <div className="">
             <Navabout></Navabout>
           </div>
-
           <Navbenifit></Navbenifit>
           <Navcertificate></Navcertificate>
           <Coursecard></Coursecard>
 
-          <div>
-            {}
-            <button></button>
-          </div>
+      
         </div>
       </div>
     </>

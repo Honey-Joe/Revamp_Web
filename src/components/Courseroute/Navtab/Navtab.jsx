@@ -50,25 +50,25 @@ function Navtab() {
   return (
     <>
       <div className="2xl:container">
-        <div className="lg:w-[100%]  w-[87%] mx-auto grid grid-cols-1 mb-28 py-[40px]">
+        <div className="lg:w-[100%]  w-[80%] mx-auto grid grid-cols-1 mb-28  py-[40px]">
           <Tabs defaultValue={1}>
             <TabsList className="pb-3">
-              <div className="slider-container">
+              <div className="slider-container py-5 px-3 rounded-lg " id="certi">
                 <Slider {...settings}>
                   <div>
                     <Tab
                       value={1}
                       slotProps={{
                         root: ({ selected, disabled }) => ({
-                          className: `font-[Regular]  border-b-4 ${
+                          className: `font-[Poppins]  ${
                             selected
-                              ? "text-[#FF9F00] border-b-4 border-[#FF9F00] "
+                              ? " bg-[#FF9F00] text-white rounded-lg "
                               : "text-black"
                           } ${
                             disabled
                               ? "cursor-not-allowed opacity-50"
                               : "cursor-pointer"
-                          } text-[14px] lg:text-[18px]  font-semibold w-full px-1 py-2   flex justify-center focus:outline-0`,
+                          } text-[14px] lg:text-[16px]  font-medium w-full px-1 py-2   flex justify-center focus:outline-0`,
                         }),
                       }}
                     >
@@ -80,15 +80,15 @@ function Navtab() {
                       value={2}
                       slotProps={{
                         root: ({ selected, disabled }) => ({
-                          className: `font-[Regular] border-b-4 ${
+                          className: `font-[Poppins]  ${
                             selected
-                              ? "text-[#FF9F00] border-b-4 border-[#FF9F00] "
+                              ? " bg-[#FF9F00] text-white rounded-lg  "
                               : "text-black"
                           } ${
                             disabled
                               ? "cursor-not-allowed opacity-50"
                               : "cursor-pointer"
-                          } text-[14px] lg:text-[18px]  font-semibold w-full px-1 py-2   flex justify-center focus:outline-0`,
+                          } text-[14px] lg:text-[16px]  font-medium w-full px-1 py-2   flex justify-center focus:outline-0`,
                         }),
                       }}
                     >
@@ -100,15 +100,15 @@ function Navtab() {
                       value={3}
                       slotProps={{
                         root: ({ selected, disabled }) => ({
-                          className: `font-[Regular]  border-b-4 ${
+                          className: `font-[Poppins]   ${
                             selected
-                              ? "text-[#FF9F00] border-b-4 border-[#FF9F00] "
+                              ? " bg-[#FF9F00] text-white rounded-lg  "
                               : "text-black"
                           } ${
                             disabled
                               ? "cursor-not-allowed opacity-50"
                               : "cursor-pointer"
-                          } text-[14px] lg:text-[18px]   font-semibold w-full px-1 py-2  flex justify-center focus:outline-0`,
+                          } text-[14px] lg:text-[16px]   font-medium w-full px-1 py-2  flex justify-center focus:outline-0`,
                         }),
                       }}
                     >
@@ -121,15 +121,15 @@ function Navtab() {
                       value={4}
                       slotProps={{
                         root: ({ selected, disabled }) => ({
-                          className: `font-[Regular] border-b-4 ${
+                          className: `font-[Poppins]  ${
                             selected
-                              ? "text-[#FF9F00] border-b-4 border-[#FF9F00] "
+                              ? " bg-[#FF9F00] text-white rounded-lg "
                               : "text-black"
                           } ${
                             disabled
                               ? "cursor-not-allowed opacity-50"
                               : "cursor-pointer"
-                          } text-[14px] lg:text-[18px]  font-semibold w-full px-1 py-2   flex justify-center focus:outline-0`,
+                          } text-[14px] lg:text-[16px]  font-medium w-full px-1 py-2   flex justify-center focus:outline-0`,
                         }),
                       }}
                     >
@@ -141,15 +141,15 @@ function Navtab() {
                       value={5}
                       slotProps={{
                         root: ({ selected, disabled }) => ({
-                          className: `font-[Regular] border-b-4 ${
+                          className: `font-[Poppins]  ${
                             selected
-                              ? "text-[#FF9F00] border-b-4 border-[#FF9F00] "
+                              ? " bg-[#FF9F00] text-white rounded-lg  "
                               : "text-black"
                           } ${
                             disabled
                               ? "cursor-not-allowed opacity-50"
                               : "cursor-pointer"
-                          } text-[14px] lg:text-[18px]  font-semibold w-full px-1 py-2   flex justify-center focus:outline-0`,
+                          } text-[14px] lg:text-[16px]  font-medium w-full px-1 py-2   flex justify-center focus:outline-0`,
                         }),
                       }}
                     >

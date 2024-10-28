@@ -13,7 +13,7 @@ const UpcomingEventCard = ({month,day,year,image,location,head,viewdetails}) => 
                         <p className=" font-[Regular] text-lg text-slate-600">{year}</p>
                     </div>
                     <div>
-                        <img src={image} alt="Upcoimg_image" className=" rounded-full w-[150px]"/>
+                        <img src={image} alt="Upcoimg_image" className=" rounded-full w-[100px]"/>
                     </div>
                 </div>
                 <div className=" flex items-center gap-8 flex-wrap lg:flex-nowrap">

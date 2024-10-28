@@ -89,3 +89,9 @@ export const FcourseImg4 ="https://ik.imagekit.io/jjyo3gsee/Insperation%20Image/
 export const FcourseImg5 ="https://ik.imagekit.io/jjyo3gsee/Insperation%20Image/FindCourse/find-course-img5.jpg?updatedAt=1728148646182"
 export const FcourseImg6 ="https://ik.imagekit.io/jjyo3gsee/Insperation%20Image/FindCourse/find-course-img6.jpg?updatedAt=1728148646071"
 export const FProfileimag="https://ik.imagekit.io/jjyo3gsee/Insperation%20Image/FindCourse/profile.jpg?updatedAt=1728149682082"
+
+export const courseheader= "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%20934.png?updatedAt=1730089749671";
+export const coursedhead745= "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%20736.png?updatedAt=1730090456593"
+export const coursedheadmob ="https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%20737.png?updatedAt=1730090456322"
+
+export const author = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/suganth.jpeg.jpg?updatedAt=1724426232956"
